@@ -41,15 +41,16 @@ namespace Helpers
         public static string MorseATexto(string cadena)
         {
             string traduccion = "";
+            string[] Morse = cadena.Split(" ");
 
-            foreach (char simbolo in cadena)
+            foreach (string simbolo in Morse)
             {
                 foreach(KeyValuePair<string, string> elemento in DiccionarioMorse)
                 {
                     if(elemento.Value == Convert.ToString(simbolo))
                     {
                         traduccion = traduccion + elemento.Key;
-                        break;
+                        //break;
                     }
                 }
             }
@@ -69,8 +70,8 @@ namespace Helpers
                 {
                     if(Convert.ToChar(elemento.Key) == letra)
                     {
-                        traduccion = traduccion + elemento.Value;
-                        break;
+                        traduccion = traduccion + elemento.Value + " ";
+                        //break;
                     }
                 }
             }
