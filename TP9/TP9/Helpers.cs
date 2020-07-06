@@ -30,7 +30,7 @@ namespace Helpers
             {"a", ".-"}, {"b", "-..."}, {"c", "-.-."}, {"d", "-.."}, {"e", "."},
             {"f", "..-." }, {"g", "--."}, {"h", "...."}, {"i", ".."}, {"j", ".---"},
             {"k", "-.-" }, {"l", ".-.."}, {"m", "--"}, {"n", "-."}, {"ñ", "--.--"},
-            {"o", "---"}, {"p", ".--."}, {"q", "--.-"}, {"r", "-.-"}, {"s", "..."},
+            {"o", "---"}, {"p", ".--."}, {"q", "--.-"}, {"r", ".-."}, {"s", "..."},
             {"t", "-"}, {"u", "..-"}, {"v", "...-"}, {"w", ".--"}, {"x", "-..-"},
             {"y", "-.--"}, {"z","--.."}, {"1", ".----"}, {"2", "..---"}, {"3", "...--"},
             {"4", "....-"}, {"5", "....."}, {"6", "-...."}, {"7", "--..."}, {"8", "---.."},
@@ -47,7 +47,7 @@ namespace Helpers
             {
                 foreach(KeyValuePair<string, string> elemento in DiccionarioMorse)
                 {
-                    if(elemento.Value == Convert.ToString(simbolo))
+                    if (elemento.Value == simbolo.ToString())
                     {
                         traduccion = traduccion + elemento.Key;
                         //break;
@@ -66,9 +66,10 @@ namespace Helpers
 
             foreach(char letra in cadena)
             {
+                Console.WriteLine(letra);
                 foreach(KeyValuePair<string, string> elemento in DiccionarioMorse)
                 {
-                    if(Convert.ToChar(elemento.Key) == letra)
+                    if(elemento.Key == letra.ToString())
                     {
                         traduccion = traduccion + elemento.Value + " ";
                         //break;
