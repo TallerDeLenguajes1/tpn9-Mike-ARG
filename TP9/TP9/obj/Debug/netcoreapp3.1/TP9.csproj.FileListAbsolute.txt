@@ -1,0 +1,13 @@
+C:\RepoGit\tp9\TP9\TP9\bin\Debug\netcoreapp3.1\TP9.exe
+C:\RepoGit\tp9\TP9\TP9\bin\Debug\netcoreapp3.1\TP9.deps.json
+C:\RepoGit\tp9\TP9\TP9\bin\Debug\netcoreapp3.1\TP9.runtimeconfig.json
+C:\RepoGit\tp9\TP9\TP9\bin\Debug\netcoreapp3.1\TP9.runtimeconfig.dev.json
+C:\RepoGit\tp9\TP9\TP9\bin\Debug\netcoreapp3.1\TP9.dll
+C:\RepoGit\tp9\TP9\TP9\bin\Debug\netcoreapp3.1\TP9.pdb
+C:\RepoGit\tp9\TP9\TP9\obj\Debug\netcoreapp3.1\TP9.csprojAssemblyReference.cache
+C:\RepoGit\tp9\TP9\TP9\obj\Debug\netcoreapp3.1\TP9.AssemblyInfoInputs.cache
+C:\RepoGit\tp9\TP9\TP9\obj\Debug\netcoreapp3.1\TP9.AssemblyInfo.cs
+C:\RepoGit\tp9\TP9\TP9\obj\Debug\netcoreapp3.1\TP9.csproj.CoreCompileInputs.cache
+C:\RepoGit\tp9\TP9\TP9\obj\Debug\netcoreapp3.1\TP9.dll
+C:\RepoGit\tp9\TP9\TP9\obj\Debug\netcoreapp3.1\TP9.pdb
+C:\RepoGit\tp9\TP9\TP9\obj\Debug\netcoreapp3.1\TP9.genruntimeconfig.cache
